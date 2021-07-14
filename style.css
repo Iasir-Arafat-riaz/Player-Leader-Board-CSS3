@@ -1,0 +1,16 @@
+/* top-players */
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.player{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+    margin-right: 10px;
+}
